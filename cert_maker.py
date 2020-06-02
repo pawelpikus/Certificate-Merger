@@ -7,7 +7,7 @@ data_filename = sys.argv[2]
 
 data = pd.read_excel(data_filename)
 #  change all df values to str, needed by merge_templates()
-data.applymap(str)
+data = data.applymap(str)
 data_dict = data.to_dict(orient='index')
 
 students = []
