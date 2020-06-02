@@ -17,4 +17,4 @@ for key, value in data_dict.items():
 with MailMerge(template_filename) as document:
     document.merge_templates(students, separator='page_break')
     document.write('certificates.docx')
-    print('Done.')
+print('Done.')
