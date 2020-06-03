@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\pawel\PycharmProjects\certificate_maker\venv"
+VIRTUAL_ENV="C:\Users\godspeed7\PycharmProjects\certificate_maker\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
