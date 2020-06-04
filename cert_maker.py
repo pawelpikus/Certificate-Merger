@@ -11,7 +11,7 @@ data = data.applymap(str)
 data_dict = data.to_dict(orient='index')
 
 students = []
-for key, value in data_dict.items():
+for key in data_dict.keys():
     students.append(data_dict[key])
 
 with MailMerge(template_filename) as document:
