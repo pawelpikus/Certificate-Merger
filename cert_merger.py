@@ -28,7 +28,7 @@ try:
         document.write('certificates.docx')
     print('Done.')
 except IndexError:
-    print("Type: cert_maker.py [arg1=template] [arg2=data]")
+    print("Type: cert_merger.py [arg1=template] [arg2=data]")
 except FileNotFoundError as err:
     print(err)
 
