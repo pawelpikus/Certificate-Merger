@@ -1,4 +1,4 @@
-## Certificate Merger
+# Certificate Merger
 
 This Python script automates the process of filling-in names, scores, and other fields in certificates/diplomas or any other Word documents.
 It's features include:
@@ -11,7 +11,7 @@ It's features include:
 
 
 
-# Installation
+## Installation
 The script is written in Python 3.8. Tested od Windows 10. 
 
 Dependencies:
